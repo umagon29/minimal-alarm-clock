@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="clock" id="clock">00:00:00</div>
+    <div class="set-alarm">
+      <input type="time" id="alarm-input" />
+      <button id="add-btn">Add Alarm</button>
+    </div>
+    <ul class="alarm-list" id="alarm-list"></ul>
+  </div>
+  <div class="modal hidden" id="modal">
+    <div class="modal-box">
+      <p>⏰ Alarm!</p>
+      <button id="dismiss-btn">Dismiss</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
